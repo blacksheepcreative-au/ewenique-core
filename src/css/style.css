@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --PrimaryColor: #0f8eff;
+  --SecondaryColor: #0075db;
+  --DarkColor: #232833;
+  --LightColor: #f9f9f9;
+}

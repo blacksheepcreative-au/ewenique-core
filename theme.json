@@ -1,0 +1,27 @@
+{
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        { "slug": "primary", "color": "#0f8eff", "name": "Primary" },
+        { "slug": "secondary", "color": "#0075db", "name": "Secondary" },
+        { "slug": "dark", "color": "#232833", "name": "Dark" },
+        { "slug": "light", "color": "#f9f9f9", "name": "Light" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        { "fontFamily": "Lato, sans-serif", "slug": "lato", "name": "Lato" }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "Lato, sans-serif"
+    },
+    "color": {
+      "text": "#232833",
+      "background": "#ffffff"
+    }
+  }
+}

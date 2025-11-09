@@ -1,0 +1,1 @@
+console.log('🐑 Ewenique Blocks Theme JS Loaded');
