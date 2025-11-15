@@ -1,0 +1,112 @@
+{
+  "apiVersion": 3,
+  "name": "ewenique/eb-002-hero-left",
+  "title": "EB-002 Hero Left",
+  "category": "ewenique",
+  "icon": "cover-image",
+  "description": "Responsive hero with left-aligned text, media, and CTA controls.",
+  "supports": {
+    "anchor": true,
+    "align": ["wide", "full"]
+  },
+  "attributes": {
+    "wrapperBg": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "headingThinColor": {
+      "type": "string",
+      "default": "#0f172a"
+    },
+    "headingThickColor": {
+      "type": "string",
+      "default": "#0f9fbe"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#475569"
+    },
+    "swapSides": {
+      "type": "boolean",
+      "default": false
+    },
+    "headingThinOne": {
+      "type": "string",
+      "source": "html",
+      "selector": ".eb-hero-left__group-one .eb-hero-left__heading--thin"
+    },
+    "headingThickOne": {
+      "type": "string",
+      "source": "html",
+      "selector": ".eb-hero-left__group-one .eb-hero-left__heading--thick"
+    },
+    "supportingOne": {
+      "type": "string",
+      "source": "html",
+      "selector": ".eb-hero-left__group-one .eb-hero-left__supporting"
+    },
+    "headingThinTwo": {
+      "type": "string",
+      "source": "html",
+      "selector": ".eb-hero-left__group-two .eb-hero-left__heading--thin"
+    },
+    "headingThickTwo": {
+      "type": "string",
+      "source": "html",
+      "selector": ".eb-hero-left__group-two .eb-hero-left__heading--thick"
+    },
+    "supportingTwo": {
+      "type": "string",
+      "source": "html",
+      "selector": ".eb-hero-left__group-two .eb-hero-left__supporting"
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "ctaText": {
+      "type": "string",
+      "default": "Get Started"
+    },
+    "ctaUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "thinSizeMobile": {
+      "type": "number",
+      "default": 18
+    },
+    "thinSizeTablet": {
+      "type": "number",
+      "default": 20
+    },
+    "thinSizeDesktop": {
+      "type": "number",
+      "default": 22
+    },
+    "thickSizeMobile": {
+      "type": "number",
+      "default": 24
+    },
+    "thickSizeTablet": {
+      "type": "number",
+      "default": 30
+    },
+    "thickSizeDesktop": {
+      "type": "number",
+      "default": 40
+    },
+    "ctaBgColor": {
+      "type": "string",
+      "default": "#111111"
+    },
+    "ctaTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    }
+  }
+}
